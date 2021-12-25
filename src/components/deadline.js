@@ -59,7 +59,7 @@ export default function Deadline() {
                             <h1 className='text-mono text-base text-mono sm:text-base md:text-2xl text-slate-700'>{diff.day} days </h1>
                         </div>
                         <div className='bg-white p-2 rounded shadow-lg shadow-black mt-4'>
-                            <h1 className='text-mono sm:text-base md:text-2xl font-bold text-slate-700'>4 hrs</h1>
+                            <h1 className='text-mono sm:text-base md:text-2xl font-bold text-slate-700'>{diff.hour} hrs</h1>
                         </div>
                         <div className='bg-white p-2 rounded shadow-lg shadow-black mt-4'>
                             <h1 className='text-mono sm:text-base md:text-2xl font-bold text-slate-700'>{diff.minute} mins</h1>
